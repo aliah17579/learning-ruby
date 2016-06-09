@@ -1,5 +1,5 @@
 module PasswordKeeper
-	class Password 
+	class PasswordHelper 
 
 		def generate_password 
 			letters = ('a'..'z').to_a
