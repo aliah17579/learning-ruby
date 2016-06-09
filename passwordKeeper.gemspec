@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
-  s.name        = 'passwordKeeper'
+  s.name        = ''
   s.version     = '1.0.0'
-  s.date        = '2016-06-09'
-  s.summary     = "Stores Passwords and makes them"
-  s.description = "A simple practice gem"
-  s.authors     = ["Candice"]
-  s.email       = '@mail'
+  s.date        = ''
+  s.summary     = ""
+  s.description = ""
+  s.authors     = [""]
+  s.email       = ''
   s.files       = ["lib/passwordKeeper.rb"]
   s.homepage    = ''
   s.license     = 'MIT'

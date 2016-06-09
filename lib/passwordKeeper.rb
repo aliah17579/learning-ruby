@@ -1,28 +1,4 @@
-module PasswordKeeper
-	class Password 
+require_relative 'classes/password'
 
-		def generate_password 
-			letters = ('a'..'z').to_a
-			numbers = (0..9).to_a
-
-			numbers.each do |number|
-				letters << number.to_s
-			end
-
-			i = 0
-			password = ""
-
-			until i == 10 do
-				password += letters.sample
-				i += 1
-			end
-
-			return password
-		end
-
-	end
-end
-
-password = PasswordKeeper::Password.new
-puts password.generate_password
-
+app = PasswordKeeper::Password.new
+puts app.generate_password
