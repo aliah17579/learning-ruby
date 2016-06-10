@@ -9,9 +9,7 @@ gem "pg"
 
 gem "dotenv"
 
-gem "job-integration-logger", :source => "https://7NR12BTztynvPnaVtKvs@gem.fury.io/jobaq/"
-gem "sinatra-rest-base-cb", '~> 1.0.0', :source => "https://7NR12BTztynvPnaVtKvs@gem.fury.io/jobaq/"
-gem "job-integration-contrib", :source => "https://7NR12BTztynvPnaVtKvs@gem.fury.io/jobaq/"
+gem "passwordKeeper", :source => "https://repo.fury.io/op9rp5NAF-TiJt1xHWUf/cmm0004/"
 
 group :test do
   gem 'rspec'

@@ -1,9 +1,9 @@
-module PasswordKeeper
+module PasswordWebApp
   class Application < Sinatra::Base
     include Models
 
     get '/password/?' do
-      "sample hello"
+      "hello"
     end
 
     post '/password/?' do

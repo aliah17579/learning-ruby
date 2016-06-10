@@ -1,4 +1,4 @@
 require 'dotenv'
 Dotenv.load
-require './lib/PasswordKeeper'
+require './lib/PasswordWebApp'
 require 'sinatra/activerecord/rake'

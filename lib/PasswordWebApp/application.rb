@@ -3,11 +3,11 @@ require 'sinatra'
 require 'active_record'
 require './config/environments'
 
-require './lib/PasswordKeeper/health_check'
-require './lib/PasswordKeeper/models'
-require './lib/PasswordKeeper/endpoints'
+require './lib/PasswordWebApp/health_check'
+require './lib/PasswordWebApp/models'
+require './lib/PasswordWebApp/endpoints'
 
-module PasswordKeeper
+module PasswordWebApp
  
 
   class Application < Sinatra::Base
