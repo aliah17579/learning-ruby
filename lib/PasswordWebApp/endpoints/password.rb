@@ -3,7 +3,7 @@ module PasswordWebApp
     include Models
 
     get '/password/?' do
-      "sample hello"
+      "hello"
     end
 
     post '/password/?' do

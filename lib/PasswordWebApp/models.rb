@@ -1,1 +1,1 @@
-require './lib/PasswordKeeper/models/sample'
+require './lib/PasswordWebApp/models/sample'

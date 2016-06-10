@@ -4,6 +4,6 @@ require 'bundler/setup'
 
 require 'dotenv'
 Dotenv.load
-require './lib/PasswordWebApp'
+require './lib/passwordWebApp'
 
 run PasswordWebApp::Application

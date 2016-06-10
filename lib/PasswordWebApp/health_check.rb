@@ -1,4 +1,4 @@
-module PasswordKeeper
+module PasswordWebApp
   class Application < Sinatra::Base
     get "/ping/?" do
       status 200
