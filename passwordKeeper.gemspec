@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "A simple practice gem"
   s.authors     = ["Candice"]
   s.email       = '@mail'
-  s.files       = ["lib/passwordKeeper.rb"]
+  s.files       = ["lib/passwordKeeper.rb", "lib/classes/password.rb"]
   s.homepage    = ''
   s.license     = 'MIT'
 end
