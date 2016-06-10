@@ -4,6 +4,6 @@ require 'bundler/setup'
 
 require 'dotenv'
 Dotenv.load
-require './lib/PasswordKeeper'
+require './lib/PasswordWebApp'
 
-run PasswordKeeper::Application
+run PasswordWebApp::Application

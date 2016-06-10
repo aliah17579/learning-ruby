@@ -7,7 +7,7 @@ require './lib/PasswordKeeper/health_check'
 require './lib/PasswordKeeper/models'
 require './lib/PasswordKeeper/endpoints'
 
-module PasswordKeeper
+module PasswordWebApp
  
 
   class Application < Sinatra::Base

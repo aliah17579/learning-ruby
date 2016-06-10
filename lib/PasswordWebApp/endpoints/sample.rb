@@ -1,4 +1,4 @@
-module PasswordKeeper
+module PasswordWebApp
   class Application < Sinatra::Base
     include Models
 
